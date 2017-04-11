@@ -49,7 +49,7 @@ namespace LiveChartsPrototype
 
                 Graffiti.Add(new VisualElement()
                 {
-                    X = t,
+                    X = PrimaryPoints.Count - 1,
                     Y = y,
                     HorizontalAlignment = System.Windows.HorizontalAlignment.Center,
                     VerticalAlignment = System.Windows.VerticalAlignment.Center,
